@@ -42,11 +42,11 @@
             this.guncellemetamamla_2 = new System.Windows.Forms.Timer(this.components);
             this.zamanasimikontrol = new System.Windows.Forms.Timer(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guncellemedosyacikart_1 = new System.Windows.Forms.Timer(this.components);
             this.guncellemedosyacikart_2 = new System.Windows.Forms.Timer(this.components);
             this.guncellemetamamla_3 = new System.Windows.Forms.Timer(this.components);
             this.butonAktifTimer = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.yuklemePictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yuklemePictureBox)).BeginInit();
@@ -167,6 +167,18 @@
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip1.ToolTipTitle = "mCTerminal Güncelleyici Sürümü";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::mct_upd.Properties.Resources.info;
+            this.pictureBox1.Location = new System.Drawing.Point(661, 402);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1, "v2.0.1");
+            // 
             // guncellemedosyacikart_1
             // 
             this.guncellemedosyacikart_1.Interval = 3000;
@@ -187,18 +199,6 @@
             this.butonAktifTimer.Enabled = true;
             this.butonAktifTimer.Interval = 3453;
             this.butonAktifTimer.Tick += new System.EventHandler(this.butonAktifTimer_Tick);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::mct_upd.Properties.Resources.info;
-            this.pictureBox1.Location = new System.Drawing.Point(661, 402);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox1, "v2.0.0");
             // 
             // yuklemePictureBox
             // 

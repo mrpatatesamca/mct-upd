@@ -133,7 +133,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox1, "v2.0.0");
+            this.toolTip1.SetToolTip(this.pictureBox1, "v2.0.1");
             // 
             // toolTip2
             // 
